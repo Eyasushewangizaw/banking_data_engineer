@@ -40,7 +40,6 @@ Kafka messages are consumed and landed into **MinIO**, an S3-compatible object s
 
 ![alt text](<Screenshot 2026-03-16 002049.png>)
 
-
 ### 4. Snowflake Data Warehouse
 Data is loaded from MinIO into Snowflake and processed through three medallion layers:
 
@@ -52,12 +51,11 @@ Data is loaded from MinIO into Snowflake and processed through three medallion l
 
 Transformations between layers are handled by **dbt**, which runs SQL models within Snowflake.
 
-![alt text](<Screenshot 2026-03-18 003817.png>) ![alt text](<Screenshot 2026-03-17 175227.png>) ![alt text](<Screenshot 2026-03-17 171940.png>)
+![alt text](<Screenshot 2026-03-17 171940.png>) ![alt text](<Screenshot 2026-03-18 003817.png>) ![alt text](<Screenshot 2026-03-17 175227.png>)
 
 
 ### 5. Apache Airflow
 Airflow schedules and orchestrates the pipeline from minio s3 bucket to snowflake data warehouse
 
+
 ![alt text](<Screenshot 2026-03-16 212901.png>)
-
-
