@@ -6,7 +6,7 @@ A fully containerized, end-to-end data engineering pipeline that streams, stores
 
 ## 🏗️ Architecture Overview
 
-![alt text](<Screenshot 2026-03-19 035653.png>)
+![alt text](<Screenshot 2026-03-20 012849.png>)
 
 
 ## 🧰 Tech Stack
