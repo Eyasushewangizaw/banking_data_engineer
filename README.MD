@@ -62,8 +62,7 @@ Airflow schedules and orchestrates the pipeline from minio s3 bucket to snowflak
 
 ### 6. Power BI
 The Business Ready layer in Snowflake is connected to **Power BI** for banking dashboards and reporting — covering metrics like transaction volumes, account balances, fraud indicators, and loan analytics.
-
-![alt text](<Screenshot 2026-03-19 005555.png>)
+![alt text](<Screenshot 2026-03-19 004048.png>)
 
 
 ---
